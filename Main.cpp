@@ -5,6 +5,7 @@
 #include "Leetcode_Problems/ConcatString_Solver.h"
 #include "Leetcode_Problems/SumTwo_Solver.h"
 #include "Leetcode_Problems/Parenthesis_Solver.h"
+#include "Leetcode_Problems/SortedListMerger_Solver.h"
 
 using namespace std;
 
@@ -28,6 +29,18 @@ int main()
     string example = "({})";
     bool res = p_s.solve(example);
     std::cout << "Parenthesis: "<< res << std::endl;
+
+
+    LinkedListSolver l_s;
+    ListNode* l1 = new ListNode(1);
+    ListNode* l2 = new ListNode(1);
+    ListNode* l3 = new ListNode(2);
+    ListNode* l4 = new ListNode(2);
+
+    l1->next = l4;
+    l2->next = l3;
+
+    ListNode* merged_list = l_s.solve(l1, l2);
 
     return 0;
 }
