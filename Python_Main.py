@@ -18,8 +18,11 @@ def main():
     #BinarySearch_s = BinarySearch_Sovler()
     #BinarySearch_s.test_solve()
 
-    FloodFill_s = lp.FloodFill_Sovler()
-    FloodFill_s.test_solve()
+    #FloodFill_s = lp.FloodFill_Sovler()
+    #FloodFill_s.test_solve()
+
+    LLC_s = lp.LinkedListCycle_Solver()
+    LLC_s.test_solve()
 
     pass
 
