@@ -27,8 +27,11 @@ def main():
     #FBV_s = lp.FirstBadVersion_Solver()
     #FBV_s.test_solve()
 
-    Ransomnote_s = lp.Ransomnote_Sovler()
-    Ransomnote_s.test_solve()
+    #Ransomnote_s = lp.Ransomnote_Sovler()
+    #Ransomnote_s.test_solve()
+
+    Different_Sums_s = lp.Different_Sum_Sovler()
+    Different_Sums_s.test_solve()
 
     pass
 
