@@ -6,3 +6,4 @@ from .BinarySearch_Solver import BinarySearch_Sovler
 from .FloodFill_Solver import FloodFill_Sovler
 from .LinkedListCycle_Solver import LinkedListCycle_Solver
 from .First_Bad_version import FirstBadVersion_Solver
+from .Ransomnote_Magazin_Solver import Ransomnote_Sovler

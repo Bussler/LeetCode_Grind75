@@ -24,8 +24,11 @@ def main():
     #LLC_s = lp.LinkedListCycle_Solver()
     #LLC_s.test_solve()
 
-    FBV_s = lp.FirstBadVersion_Solver()
-    FBV_s.test_solve()
+    #FBV_s = lp.FirstBadVersion_Solver()
+    #FBV_s.test_solve()
+
+    Ransomnote_s = lp.Ransomnote_Sovler()
+    Ransomnote_s.test_solve()
 
     pass
 
