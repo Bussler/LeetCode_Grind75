@@ -1,4 +1,4 @@
-from Leetcode_Problems_Python.Solver_Interace import Solver
+from Leetcode_Problems_Python.Solver_Interface import Solver
 from typing import Optional, List
 
 
