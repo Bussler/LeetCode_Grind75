@@ -30,8 +30,11 @@ def main():
     #Ransomnote_s = lp.Ransomnote_Sovler()
     #Ransomnote_s.test_solve()
 
-    Different_Sums_s = lp.Different_Sum_Sovler()
-    Different_Sums_s.test_solve()
+    #Different_Sums_s = lp.Different_Sum_Sovler()
+    #Different_Sums_s.test_solve()
+
+    LongestPalin_s = lp.LongestPalindrome_Sovler()
+    LongestPalin_s.test_solve()
 
     pass
 
