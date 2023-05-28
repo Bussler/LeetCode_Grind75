@@ -33,8 +33,11 @@ def main():
     #Different_Sums_s = lp.Different_Sum_Sovler()
     #Different_Sums_s.test_solve()
 
-    LongestPalin_s = lp.LongestPalindrome_Sovler()
-    LongestPalin_s.test_solve()
+    #LongestPalin_s = lp.LongestPalindrome_Sovler()
+    #LongestPalin_s.test_solve()
+
+    MajorityElem_s = lp.MajorityElement_Sovler()
+    MajorityElem_s.test_solve()
 
     pass
 

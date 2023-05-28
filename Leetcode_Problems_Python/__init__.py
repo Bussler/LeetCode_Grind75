@@ -9,3 +9,5 @@ from .First_Bad_version import FirstBadVersion_Solver
 from .Ransomnote_Magazin_Solver import Ransomnote_Sovler
 from .Different_Sums_Solver import Different_Sum_Sovler
 from .LongestPalindrome_Solver import LongestPalindrome_Sovler
+from .ReverseLinkedList_Solver import ReversedLinkedList_Sovler
+from .MajorityElement_Solver import MajorityElement_Sovler
