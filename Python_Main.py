@@ -36,8 +36,11 @@ def main():
     #LongestPalin_s = lp.LongestPalindrome_Sovler()
     #LongestPalin_s.test_solve()
 
-    MajorityElem_s = lp.MajorityElement_Sovler()
-    MajorityElem_s.test_solve()
+    #MajorityElem_s = lp.MajorityElement_Sovler()
+    #MajorityElem_s.test_solve()
+    
+    BinarySum_s = lp.BinarySum_Solver()
+    BinarySum_s.test_solve()
 
     pass
 
