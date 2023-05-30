@@ -12,3 +12,4 @@ from .LongestPalindrome_Solver import LongestPalindrome_Sovler
 from .ReverseLinkedList_Solver import ReversedLinkedList_Sovler
 from .MajorityElement_Solver import MajorityElement_Sovler
 from .BinarySum_Solver import BinarySum_Solver
+from .MiddleLinkedList_Solver import MiddleLinkedList_Solver

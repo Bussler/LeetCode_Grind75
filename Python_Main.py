@@ -39,8 +39,11 @@ def main():
     #MajorityElem_s = lp.MajorityElement_Sovler()
     #MajorityElem_s.test_solve()
     
-    BinarySum_s = lp.BinarySum_Solver()
-    BinarySum_s.test_solve()
+    #BinarySum_s = lp.BinarySum_Solver()
+    #BinarySum_s.test_solve()
+    
+    MiddleLinked_s = lp.MiddleLinkedList_Solver()
+    MiddleLinked_s.test_solve()
 
     pass
 
