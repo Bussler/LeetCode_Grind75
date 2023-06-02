@@ -42,8 +42,10 @@ def main():
     #BinarySum_s = lp.BinarySum_Solver()
     #BinarySum_s.test_solve()
     
-    MiddleLinked_s = lp.MiddleLinkedList_Solver()
-    MiddleLinked_s.test_solve()
+    #MiddleLinked_s = lp.MiddleLinkedList_Solver()
+    #MiddleLinked_s.test_solve()
+    
+    lp.test_Queue_OnlyStacks()
 
     pass
 
