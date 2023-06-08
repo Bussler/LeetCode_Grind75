@@ -9,7 +9,6 @@ class ListNode:
 
 class ReversedLinkedList_Sovler(Solver):
 
-    # M: Palindrome: word is same front/ backwards. Count letters that are present multiple times and one that is present once
     def solve(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
         if head is None or head.val is None:
@@ -24,10 +23,3 @@ class ReversedLinkedList_Sovler(Solver):
             cur = cur.next
 
         return reversed_list
-
-    def test_solve(self):
-        #s = "abccccdd"
-        s = "ccca"
-
-        longestPalindrome = self.solve(s)
-        print("Longest Palindrome with ", s, " : ", longestPalindrome)

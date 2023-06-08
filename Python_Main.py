@@ -50,8 +50,11 @@ def main():
     #MaxSubarray_s = lp.MaximumSubarray_Solver()
     #MaxSubarray_s.test_solve()
     
-    InsertInterval_s = lp.Insert_Interval_Solver()
-    InsertInterval_s.test_solve()
+    #InsertInterval_s = lp.Insert_Interval_Solver()
+    #InsertInterval_s.test_solve()
+
+    LongestSubstring_s = lp.Longest_Substring_Solver()
+    LongestSubstring_s.test_solve()
 
     pass
 
