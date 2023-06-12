@@ -6,6 +6,7 @@
 #include "Leetcode_Problems/SumTwo_Solver.h"
 #include "Leetcode_Problems/Parenthesis_Solver.h"
 #include "Leetcode_Problems/SortedListMerger_Solver.h"
+#include "Leetcode_Problems/Matrix_0_1_Solver.h"
 
 using namespace std;
 
@@ -25,7 +26,7 @@ int main()
         cout << element << std::endl;
     }*/
 
-    ParenthesisSolver p_s;
+    /*ParenthesisSolver p_s;
     string example = "({})";
     bool res = p_s.solve(example);
     std::cout << "Parenthesis: "<< res << std::endl;
@@ -40,7 +41,10 @@ int main()
     l1->next = l4;
     l2->next = l3;
 
-    ListNode* merged_list = l_s.solve(l1, l2);
+    ListNode* merged_list = l_s.solve(l1, l2);*/
+
+    Matrix_0_1_Solver mat_solver;
+    mat_solver.test_solve();
 
     return 0;
 }

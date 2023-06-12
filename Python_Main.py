@@ -53,8 +53,11 @@ def main():
     #InsertInterval_s = lp.Insert_Interval_Solver()
     #InsertInterval_s.test_solve()
 
-    LongestSubstring_s = lp.Longest_Substring_Solver()
-    LongestSubstring_s.test_solve()
+    #LongestSubstring_s = lp.Longest_Substring_Solver()
+    #LongestSubstring_s.test_solve()
+    
+    Matrix01_solver = lp.Matrix01_Solver()
+    Matrix01_solver.test_solve()
 
     pass
 
