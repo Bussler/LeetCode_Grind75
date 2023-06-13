@@ -36,8 +36,8 @@ class Matrix01_Solver(Solver):
                     
                     mat[i][j] = min(top, left) +1
                     
-        for i in range(0, len(mat)):
-            for j in range(0, len(mat[0])):
+        for i in range(len(mat)-1, -1, -1):
+            for j in range(len(mat[0])-1, -1, -1):
                 if mat[i][j] != 0:
                     
                     bottom = math.inf
@@ -55,6 +55,8 @@ class Matrix01_Solver(Solver):
 
     def test_solve(self):
         mat =[[0,0,1],[0,1,0],[1,1,1]]
+        
+        mat = [[1,1,0,0,1,0,0,1,1,0],[1,0,0,1,0,1,1,1,1,1],[1,1,1,0,0,1,1,1,1,0],[0,1,1,1,0,1,1,1,1,1],[0,0,1,1,1,1,1,1,1,0],[1,1,1,1,1,1,0,1,1,1],[0,1,1,1,1,1,1,0,0,1],[1,1,1,1,1,0,0,1,1,1],[0,1,0,1,1,0,1,1,1,1],[1,1,1,0,1,0,1,1,1,1]]
         
         distance_mat = self.solve(mat)
         
