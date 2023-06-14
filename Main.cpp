@@ -7,6 +7,7 @@
 #include "Leetcode_Problems/Parenthesis_Solver.h"
 #include "Leetcode_Problems/SortedListMerger_Solver.h"
 #include "Leetcode_Problems/Matrix_0_1_Solver.h"
+#include "Leetcode_Problems/K_Closest_Points_Solver.h"
 
 using namespace std;
 
@@ -43,8 +44,11 @@ int main()
 
     ListNode* merged_list = l_s.solve(l1, l2);*/
 
-    Matrix_0_1_Solver mat_solver;
-    mat_solver.test_solve();
+    //Matrix_0_1_Solver mat_solver;
+    //mat_solver.test_solve();
+
+    K_Closest_Solver c_solver;
+    c_solver.test_solve();
 
     return 0;
 }

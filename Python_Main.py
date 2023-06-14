@@ -56,8 +56,11 @@ def main():
     #LongestSubstring_s = lp.Longest_Substring_Solver()
     #LongestSubstring_s.test_solve()
     
-    Matrix01_solver = lp.Matrix01_Solver()
-    Matrix01_solver.test_solve()
+    #Matrix01_solver = lp.Matrix01_Solver()
+    #Matrix01_solver.test_solve()
+    
+    K_Closest_solver = lp.K_Closest_Points_Solver()
+    K_Closest_solver.test_solve()
 
     pass
 

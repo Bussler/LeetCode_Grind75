@@ -18,3 +18,4 @@ from .Maximum_Subarray_Solver import MaximumSubarray_Solver
 from .Insert_Interval_Solver import Insert_Interval_Solver
 from .Longest_Substring_Solver import Longest_Substring_Solver
 from .Matrix_0_1_Solver import Matrix01_Solver
+from .K_Closest_Points_Solver import K_Closest_Points_Solver
