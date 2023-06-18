@@ -59,8 +59,11 @@ def main():
     #Matrix01_solver = lp.Matrix01_Solver()
     #Matrix01_solver.test_solve()
     
-    K_Closest_solver = lp.K_Closest_Points_Solver()
-    K_Closest_solver.test_solve()
+    #K_Closest_solver = lp.K_Closest_Points_Solver()
+    #K_Closest_solver.test_solve()
+    
+    Threesum_solver = lp.ThreeSum_Solver()
+    Threesum_solver.test_solve()
 
     pass
 
