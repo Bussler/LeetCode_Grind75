@@ -9,6 +9,7 @@
 #include "Leetcode_Problems/Matrix_0_1_Solver.h"
 #include "Leetcode_Problems/K_Closest_Points_Solver.h"
 #include "Leetcode_Problems/EvaluateReversePolishNotion_Solver.h"
+#include "Leetcode_Problems/Coin_Change_Solver.h"
 
 using namespace std;
 
@@ -51,8 +52,11 @@ int main()
     //K_Closest_Solver c_solver;
     //c_solver.test_solve();
 
-    EvaluatePolischNotion_Solver r_solver;
-    r_solver.test_solve();
+    //EvaluatePolischNotion_Solver r_solver;
+    //r_solver.test_solve();
+
+    Coin_Change_Solver c_solver;
+    c_solver.test_solve();
 
     return 0;
 }
